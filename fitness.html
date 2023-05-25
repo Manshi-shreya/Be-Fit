@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Be Fit</title>
+</head>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&display=swap">
+<link rel="stylesheet" href="fitness project/fitness.css">
+<style>
+body{
+    font-family: 'Baloo Bhai 2', cursive;
+    margin: 0px;
+    padding: 0px;
+    background: url('training-gd35d231d9_1280.jpg');
+    height: 600px;
+    color: aliceblue;
+}
+.left{
+/* border: 2px solid red; */
+display: inline-block;
+    position: absolute;
+    left: 60px;
+    top: 20px;
+}
+.right{
+    /* border: 2px solid green; */
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    top: 38px;
+}
+.mid{display: block;
+    width: 60%;
+    /* border: 2px solid yellow; */
+    margin: 20px auto;
+}
+
+.navbar{  display: inline-block; }
+
+
+.navbar li{ display: inline-block;
+     
+   font-size: 22px ;
+}
+
+.navbar li a{ color: white;
+text-decoration:none;
+padding: 10px 23px;
+}
+.navbar li a:hover, .navbar li a.active{text-decoration: underline;
+    color: grey;
+
+}
+.left img{
+    filter: invert(100%);
+}
+.left div{ text-align:center;
+    font-size: 20px;
+}
+.btn{
+    margin: 0px 9px;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    border: 2px solid gray;
+    padding: 4px 14px;
+    font-size:15px ;
+    cursor: pointer;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+.btn:hover {
+    background-color: rgb(52, 41, 41);
+}
+.container{
+    border: 2px solid none;
+    width: 33%;
+    border-radius: 28px;
+    margin: 75px 80px;
+    padding: 55px  ;
+    display: block;
+}
+.container h1{
+    text-align: center;
+}
+
+.form input{ 
+    text-align: center;
+    display: block;
+    width: 350px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 1px auto;
+    font-size: 20px;
+    border-radius: 8px;
+}
+.container button{  display: block;
+width: 85%;
+margin: auto ;}
+
+</style>
+<body>
+    <header class="header">
+    
+    <div class="left"> <img src="dumblelogo.png" width="80px">
+            <div><strong>Be Fit</strong></div>
+        </div>
+
+        <div class="mid"><ul class="navbar"></ul>
+            <ul class="navbar">
+                <li><a href="#" class="active"
+                    >Home</a> </li>
+                 <li><a href="#">About us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+           
+            </div>
+        <div class="right">
+            <button class="btn">call us now</button>
+            <button class="btn">Email us</button></div>
+    </header>
+    <div class="container"><h1>Join the best gym of Patna</h1>
+    <form action="noaction.php">
+        <div class="form">
+            <input type="text" name="" placeholder="Enter your name">
+            <br>
+            <input type="text" name="" placeholder="Enter your age"><br>
+            <input type="text" name="" placeholder="Enter your gender"><br>
+            <input type="text" name="" placeholder="Enter your locality">
+        </div>
+        <button class="btn">Submit</button>
+    </form></div>
+    
+</body>
+</html>
